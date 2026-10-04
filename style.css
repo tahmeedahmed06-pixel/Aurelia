@@ -1,23 +1,64 @@
-.menu-icon {
-    width: 30px;
-    cursor: pointer;
+.header {
+    height : 100px;
+    background-color: #F1F2DF;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
-.menu-icon span{
+.logo{
+    font-size: 60px;
+    color: #304445;
+}
+.menu-btn{
+    background-color: none;
+    border : none;
+    cursor : pointer;
+    width: 50px;
+}
+.menu-btn span{
     display: block;
-    height: 3px;
+    height: 4px;
     background-color: #304445;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 .nav-menu{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 1000;
     background-color: #304445;
     padding: 60px;
+    box-sizing: border-box;
+    transform : translateX(-100%);
+    transition : transform 0.3s ease ;
+}
+.nav-menu nav{
+    padding: 40px 0 0;
 }
 .nav-menu a{
     display: block;
     color: #F1F2DF;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 40px;
     margin-bottom: 20px;
+}
+.close-btn{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    color: #F1F2DF;
+    line-height: 50px;
+    z-index: 1001;
+    cursor: pointer;
 }
 body{
     margin: 0;
@@ -51,7 +92,7 @@ body{
 }
 .event-card{
     width :80%;
-    max-width: 550 px;
+    max-width: 550px;
     margin: 50px auto;
     border:2px solid #9ba39b;
     background-color: #F1F2DF;
