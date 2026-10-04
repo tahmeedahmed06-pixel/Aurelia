@@ -1,28 +1,46 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("./assets/JosefinSans-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
-    height : 100px;
-    background-color: #F1F2DF;  
+    height: 100px;
+    background-color: #F1F2DF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
+    box-sizing: border-box;
 }
-.logo{
+
+.logo {
     font-size: 60px;
     color: #304445;
+    line-height: 1;
 }
-.menu-btn{
+
+.menu-btn {
     background-color: none;
-    border : none;
-    cursor : pointer;
+    border: none;
+    cursor: pointer;
     width: 50px;
+    padding: 0;
 }
-.menu-btn span{
+
+.menu-btn span {
     display: block;
     height: 4px;
     background-color: #304445;
     margin: 8px 0;
 }
-.nav-menu{
+
+.nav-menu {
     display: block;
     position: fixed;
     top: 0;
@@ -33,20 +51,23 @@
     background-color: #304445;
     padding: 60px;
     box-sizing: border-box;
-    transform : translateX(-100%);
-    transition : transform 0.3s ease ;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
 }
-.nav-menu nav{
+
+.nav-menu nav {
     padding: 40px 0 0;
 }
-.nav-menu a{
+
+.nav-menu a {
     display: block;
     color: #F1F2DF;
     text-decoration: none;
     font-size: 40px;
     margin-bottom: 20px;
 }
-.close-btn{
+
+.close-btn {
     position: absolute;
     top: 15px;
     right: 20px;
@@ -60,7 +81,8 @@
     z-index: 1001;
     cursor: pointer;
 }
-body{
+
+body {
     margin: 0;
     background-color: #F1F2DF;
 }
@@ -68,59 +90,94 @@ body{
 .line {
     width: 100%;
     height: 1px;
-    background-color: #000;
-    margin-top: 100px;
+    background-color: #304445;
+    ;
+    margin-top: 40px;
 }
-.line2{
+
+.line2 {
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: #000;
     margin-top: 50px;
 }
-.big-box{
+
+.big-box {
     width: 100%;
     height: 300px;
-    background-color: #668C8F;
-    margin-top: 5px;
-
+    background-color: #609195;
+    color: white;
+    margin-top:20px;
 }
-.big-box2{
+
+.big-box h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+.big-box p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.big-box2 {
     width: 100%;
     height: 300px;
     background-color: #304445;
-    margin-top: 2px;
+    margin-top: 0px;
 }
-.event-card{
-    width :80%;
+.big-box2 h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: #F1F2DF;
+}
+.big-box2 p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #F1F2DF;
+}
+.event-card {
+    width: 80%;
     max-width: 550px;
     margin: 50px auto;
-    border:2px solid #9ba39b;
+    border: 2px solid #9ba39b;
     background-color: #F1F2DF;
     margin-top: 50px;
 }
-.book-image{
+
+.book-image {
     height: 500px;
     background-color: #514F5A;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .book-image img {
-    width: 55%;
+    width: 80%;
+    height:90%;
+    object-fit: contain;
 }
-.event-info{
+
+.event-info {
     padding: 40px;
 }
-.event-info h2{
+
+.event-info h2 {
     color: #304445;
     font-size: 24px;
     margin: 0;
 }
-.event-info h3{
+
+.event-info h3 {
     color: #304445;
     font-size: 18px;
 }
-.event-info button{
+
+.event-info button {
     display: block;
     width: 100%;
     margin-top: 50px;
@@ -130,19 +187,22 @@ body{
     border: none;
     font-size: 16px;
 }
-.intro-box{
+
+.intro-box {
     width: 100%;
     background-color: #304445;
     text-align: center;
     padding: 50px 0;
     color: #F1F2DF;
 }
-.intro-box h1{
+
+.intro-box h1 {
     font-size: 36px;
     font-weight: normal;
     margin: 0 0 30px;
 }
-.intro-box p{
+
+.intro-box p {
     font-size: 24px;
     line-height: 1.4;
     margin: 25px 0;
