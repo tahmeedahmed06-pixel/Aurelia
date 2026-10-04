@@ -147,6 +147,9 @@ body {
     background-color: #F1F2DF;
     margin-top: 50px;
 }
+.event-card.third .book-image{
+    background-color: #c4916c
+}
 
 .book-image {
     height: 500px;
