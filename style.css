@@ -150,10 +150,15 @@ body {
 .event-card.third .book-image{
     background-color: #c4916c
 }
-
+.event-card.first .book-image{
+    background-color: #414042
+}
+.event-card.fourth .book-image{
+    background-color: #A27C55
+}
 .book-image {
     height: 500px;
-    background-color: #514F5A;
+    background-color: #514F5E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +192,7 @@ body {
     padding: 20px;
     background-color: #304445;
     color: #F1F2DF;
+    text-align: center;
     border: none;
     font-size: 16px;
 }
