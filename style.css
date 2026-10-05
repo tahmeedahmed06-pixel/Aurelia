@@ -118,7 +118,7 @@ body {
 }
 
 .big-box h1 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     padding-top: 50px;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 .big-box2 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     padding-top: 50px;
     color: #F1F2DF;
@@ -143,17 +143,26 @@ body {
     color: #F1F2DF;
 }
 
+.press-heading {
+    text-align : center ;
+    margin-top :70px;
+    margin-bottom:50px;
+}
+.press-heading h1{
+    color : #304445;
+    font-size : 35px;
+}
 .event-card {
     width: 80%;
     max-width: 550px;
     margin: 50px auto;
     border: 2px solid #9ba39b;
     background-color: #F1F2DF;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .event-card.third .book-image {
-    background-color: #c4916c
+    background-color: #b36047
 }
 
 .event-card.first .book-image {
@@ -163,7 +172,9 @@ body {
 .event-card.fourth .book-image {
     background-color: #A27C55
 }
-
+.event-card.second .book-image {
+    background-color : #c4916c
+}
 .book-image {
     height: 500px;
     background-color: #514F5E;
