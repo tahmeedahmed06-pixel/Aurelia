@@ -247,11 +247,11 @@ body {
 @media (max-width: 768px) {
 
     .event-card.third .book-image {
-        height: 300px;
+        height: 200px;
     }
 
     .event-card.second .book-image {
-        height: 350px;
+        height: 300px;
     }
 
 
