@@ -84,7 +84,7 @@ body {
 
 body {
     margin: 0;
-    background-color: #F1F2DF;
+    background-color: #F2F4E1;
 }
 
 .line {
@@ -107,7 +107,14 @@ body {
     height: 300px;
     background-color: #609195;
     color: white;
-    margin-top:20px;
+    margin-top: 20px;
+}
+
+.big-box2 {
+    width: 100%;
+    height: 400px;
+    background-color: #304445;
+    margin-top: None;
 }
 
 .big-box h1 {
@@ -115,30 +122,27 @@ body {
     text-align: center;
     padding-top: 50px;
 }
+
 .big-box p {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
 }
 
-.big-box2 {
-    width: 100%;
-    height: 300px;
-    background-color: #304445;
-    margin-top: 0px;
-}
 .big-box2 h1 {
     font-size: 40px;
     text-align: center;
     padding-top: 50px;
     color: #F1F2DF;
 }
+
 .big-box2 p {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
     color: #F1F2DF;
 }
+
 .event-card {
     width: 80%;
     max-width: 550px;
@@ -147,15 +151,19 @@ body {
     background-color: #F1F2DF;
     margin-top: 50px;
 }
-.event-card.third .book-image{
+
+.event-card.third .book-image {
     background-color: #c4916c
 }
-.event-card.first .book-image{
+
+.event-card.first .book-image {
     background-color: #414042
 }
-.event-card.fourth .book-image{
+
+.event-card.fourth .book-image {
     background-color: #A27C55
 }
+
 .book-image {
     height: 500px;
     background-color: #514F5E;
@@ -166,7 +174,7 @@ body {
 
 .book-image img {
     width: 80%;
-    height:90%;
+    height: 90%;
     object-fit: contain;
 }
 
