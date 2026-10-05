@@ -183,6 +183,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.event-card.third .book-image {
+    height : 350px;
+}
+.event-card.third .book-image img {
+    width: 70%;
+    height : 100%;
+    object-fit :contain;
+}
 
 .book-image img {
     width: 80%;
@@ -235,4 +243,16 @@ body {
     font-size: 24px;
     line-height: 1.4;
     margin: 25px 0;
+}
+@media (max-width: 768px) {
+
+    .event-card.third .book-image {
+        height: 350px;
+    }
+
+    .event-card.third .book-image img {
+        width: 85%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
