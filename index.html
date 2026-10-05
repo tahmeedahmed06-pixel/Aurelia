@@ -19,10 +19,10 @@
     <div id="navMenu" class="nav-menu">
         <button class="close-btn" onclick="closemenu()">✕</button>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="#services" onclick="closemenu()">Services</a>
+            <a href="./about.html">Contact</a>
         </nav>
     </div>
     <div class="line"></div>
@@ -31,13 +31,13 @@
         <h1>AURELIA</h1>
         <p>The World Within Reach</p>
     </div>
-    <div class="big-box2">
+    <div class="big-box2" id="services">
         <h1>Our Featured Services</h1>
         <p>Coming soon...</p>
     </div>
     <div class="press-heading">
-         <h1>Explore The World's Press</h1>
-        </div>
+        <h1>Explore The World's Press</h1>
+    </div>
     <div class="event-card first card">
         <div class="book-image">
             <img src="./assets/ENGLISH.jpg" alt="Book">
@@ -83,6 +83,7 @@
         <p><br></p>
         <p><br></p>
     </div>
+
     <script>
         function openmenu() {
             document.getElementById("navMenu").style.transform = "translateX(0)";
@@ -93,4 +94,4 @@
     </script>
 </body>
 
-</html>>
+</html>

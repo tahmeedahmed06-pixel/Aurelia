@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("./assets/JosefinSans-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-box {
+    height: 60vh;
+    background-color: #668C8F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+}
+
+.intro-box h1 {
+    font-size: 60px;
+    font-weight: normal;
+    color: #F2F4E1;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.intro-box p{
+    max-width : 650px;
+    font-size:25px;
+    line-height : 1.6;
+    text-align: center;
+    margin : 0;
+    color : #F2F4E1;
+
+}
+.social-logos {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-logos img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.bottom-section {
+    height: 40vh;
+    background-color: #F2F4E1;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bottom-section h1 {
+    color: #304445;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0 0 30px;
+}
