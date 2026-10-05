@@ -247,23 +247,12 @@ body {
 @media (max-width: 768px) {
 
     .event-card.third .book-image {
-        height: 350px;
-    }
-
-    .event-card.third .book-image img {
-        width: 85%;
-        height: 100%;
-        object-fit: contain;
+        height: 300px;
     }
 
     .event-card.second .book-image {
         height: 350px;
     }
 
-    .event-card.second .book-image img {
-        width: 70%;
-        height: 100%;
-        object-fit: contain;
-    }
 
 }
